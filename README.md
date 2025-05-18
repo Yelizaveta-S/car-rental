@@ -1,17 +1,47 @@
-# RentalCar - Car Rental Frontend Application
-This is a frontend web application for "RentalCar," a company specializing in car rentals. Built with React, Vite, and Redux, this application provides a seamless user experience for Browse, filtering, and renting vehicles using a dedicated backend API.
+# Rental Cars App
+## Project Overview
+The Rental Cars App is an interactive web application designed for convenient car searching and rental. It allows users to browse available cars, filter them by brand, rental price, and mileage, and view detailed information for each vehicle. The application is built using React, Redux Toolkit, and React Hook Form, ensuring a fast and responsive user experience.
 
-## Features
-Homepage: Engaging banner with a call to action.
+## Key Features
+Browse Car Catalog: Explore a wide selection of cars available for rent.
 
-Catalog Page: Displays a comprehensive list of available vehicles with robust filtering options (brand, price, mileage) and the ability to favorite cars. Pagination (Load More) is implemented for efficient Browse.
+Filter by Brand: Quickly find cars from your favorite manufacturers.
 
-Car Details Page: Detailed view of a selected car, including photos and a rental form.
+Filter by Price: Sort vehicles by their hourly rental price.
 
-State Management: Utilizes Redux for global state management, including vehicle lists, filters, and favorite cars.
+Filter by Mileage: Specify a mileage range (from and to) to find cars that meet your criteria.
 
-Routing: Implemented with React Router for intuitive navigation (/, /catalog, /catalog/:id).
+Detailed Car View: Get comprehensive information about each car, including specifications, accessories, and rental conditions.
 
-Backend Integration: Seamless communication with the car rental API via Axios for all data operations, including server-side filtering and pagination.
+"Load More" Functionality: Load more cars as you scroll down the page.
 
-Persistence: Favorite cars list is preserved across page reloads.
+## Installation and Usage
+To get this project up and running on your local machine, follow these steps:
+
+1. Clone the Repository
+
+git clone https://www.google.com/search?q=https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+cd YOUR_REPOSITORY
+
+2. Install Dependencies
+Use npm or yarn to install all the necessary packages:
+
+npm install
+# or
+yarn install
+
+3. Start the Application
+Launch the application in development mode:
+
+npm start
+# or
+yarn start
+
+The application will be accessible in your browser at: http://localhost:3000.
+
+## Author Information
+This project was developed by Yelyzaveta Stepanova.
+
+GitHub: https://github.com/Yelizaveta-S
+LinkedIn: https://www.linkedin.com/in/yelyzaveta-stepanova/
+Email: liza.stepanova99@gmail.com
